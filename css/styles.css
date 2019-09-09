@@ -1,3 +1,7 @@
 * {
   font-family: "Lobster Two", cursive;
 }
+
+img {
+  display: block;
+}
