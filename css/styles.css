@@ -79,7 +79,8 @@ h1 {
 p {
   font-family: "Comfortaa", cursive;
   font-size: 22px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px; 
   color: #9d3d8a;
 }
 
@@ -90,10 +91,17 @@ section {
 a {
   font-family: "Comfortaa", cursive;
   font-size: 24px;
-  padding: 10px;
   color: #d68bc7;
 }
 
 a:hover {
   color: #9d3d8a;
+}
+
+.my_work {
+  padding: 10px;
+}
+
+.connect {
+  padding: 10px;
 }
