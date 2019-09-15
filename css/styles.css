@@ -25,11 +25,28 @@ header {
   margin-top: 20px;
   text-align: center;
   font-size: 70px;
+  animation-name: name;
+  animation-duration: 10s;
+}
+
+@keyframes name {
+  0% {
+    color: #2c2c54;
+  }
+  33% {
+    color: white;
+  }
+  66% {
+    color: #9d3d8a;
+  }
+  100% {
+    color: #2c2c54;
+  }
 }
 
 header h1 {
   position: relative;
-  color: #2C2C54;
+  color: #2c2c54;
 }
 
 body {
@@ -40,14 +57,14 @@ body {
 h1 {
   font-family: "Lobster Two", cursive;
   margin-bottom: 5px;
-  color: #2C2C54;
+  color: #2c2c54;
   font-size: 45px;
   /* text-align: center;  */
 }
 
 .header {
   height: 150px;
-  color: #9D3D8A;
+  color: #9d3d8a;
   font-size: 30px;
 }
 
@@ -63,7 +80,7 @@ p {
   font-family: "Comfortaa", cursive;
   font-size: 22px;
   padding: 10px;
-  color: #9D3D8A; 
+  color: #9d3d8a;
 }
 
 section {
@@ -71,7 +88,6 @@ section {
 }
 
 a {
-  text-decoration: none;
   font-family: "Comfortaa", cursive;
   font-size: 24px;
   padding: 10px;
@@ -79,6 +95,5 @@ a {
 }
 
 a:hover {
-  color: #9D3D8A;
-  font-size: 28px; 
+  color: #9d3d8a;
 }
